@@ -7,7 +7,7 @@
 
 .choose-our-app{
     background-color: #a28089;
-    color: #ffa8B6;
+    color: #edf7f6;
 
     text-align: center;
     padding:3em;
@@ -19,13 +19,15 @@
 }
 
 .chosse-app-container{
+    padding: 0em 20em;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:2em;
+
 }
 
 .circle{
-    background-color:  #9df9ef;
+    background-color:   #edf7f6;
  width: 90px;
  height:90px;
  align-items: center;
@@ -40,5 +42,11 @@ margin-bottom:2em;
     flex-direction: column;
 
 }
+    #app img{
+        border-radius: 50%;
+        width: 100px;
+        height:100px;
+        aspect-ratio: 1 / 1;
+    }
 
 
