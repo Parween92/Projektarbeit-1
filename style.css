@@ -132,3 +132,52 @@ nav {
 /* ende nav  */
 
 /* start price  */
+.prices {
+  width: 100%;
+  background-color: #ffa8b6;
+  height: 500px;
+  text-align: center;
+}
+.prices h3 {
+  color: #edf7f6;
+  padding: 10px;
+}
+
+.prices p {
+  color: #a28089;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.three {
+  margin-top: 2em auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.price-box {
+  border: 2px solid blueviolet;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  background-color: #edf7f6;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #a28089;
+  color: #edf7f6;
+  border: 1px solid #ffa8b6;
+  border-radius: 5px;
+}
+button:hover {
+  opacity: 50%;
+  transition: all 0.85s ease;
+}
