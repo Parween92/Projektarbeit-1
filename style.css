@@ -2,4 +2,43 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
+
+.choose-our-app{
+    background-color: #a28089;
+    color: #ffa8B6;
+
+    text-align: center;
+    padding:3em;
+}
+
+.choose-our-app h2{
+    margin-bottom:2em;
+    color: #FFABB6;
+}
+
+.chosse-app-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2em;
+}
+
+.circle{
+    background-color:  #9df9ef;
+ width: 90px;
+ height:90px;
+ align-items: center;
+border-radius: 50%;
+margin-bottom:2em;
+}
+
+#app{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+
