@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
 /* Bright blue: #51e2f5
 
 Blue Green: #9df9ef
@@ -84,6 +89,7 @@ nav {
   justify-content: space-between;
   gap: 2rem;
   align-items: center;
+  width: 100%;
 }
 
 .right {
@@ -92,6 +98,10 @@ nav {
   align-items: center;
   gap: 2rem;
   list-style: none;
+}
+.right li {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .right li a {
@@ -111,7 +121,7 @@ nav {
 .left img {
   border-radius: 5%;
   border: 3px solid white;
-  max-width: 150px;
+  max-width: 2rem;
 }
 .left img:hover {
   opacity: 50%;
