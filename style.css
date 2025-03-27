@@ -83,13 +83,13 @@ nav {
   padding: 2em;
   background-color: #a28089;
   align-items: center;
+  width: 100%;
 }
 .nav-box {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
   align-items: center;
-  width: 100%;
 }
 
 .right {
@@ -121,7 +121,7 @@ nav {
 .left img {
   border-radius: 5%;
   border: 3px solid white;
-  max-width: 2rem;
+  max-width: 6em;
 }
 .left img:hover {
   opacity: 50%;
