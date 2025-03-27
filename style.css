@@ -10,8 +10,8 @@ body {
 }
 /* "Awesome Apps features"-Circle section styling */
 .circles-section {
-  max-width: 1200px;
-  margin: 50px auto;
+  /* max-width: 1200px; */
+  /* margin: 50px auto; */
   text-align: center;
   padding: 20px;
   background-color: #ffa886;
@@ -51,7 +51,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: #edf7f6;
+  background-color: #a28089;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,12 +101,73 @@ body {
   .circle-item {
     margin-bottom: 30px;
   }
+  .footer-content {
+    font-size: 10px;
+  }
+  /* .footer-socialmedialinks {
+    width: 5em;
+  } */
 }
 footer {
   background-color: #a28089;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   /* display: flex;
   justify-content: center; */
+}
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.footer-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-container div a {
+  text-decoration: none;
+  color: #333;
+}
+.footer-socialmedialinks {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*Social Media Icons*/
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/*each specific social media icon*/
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
