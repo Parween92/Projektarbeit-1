@@ -3,3 +3,31 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.referenzen-logo{
+    background-color:  #edf7f6;
+    padding: 3em;
+   
+}
+
+.referenzen-logo h3{
+    margin-bottom: 2em;
+    text-align: center;
+    color:#FFABB6;
+    font-weight: bold;
+ 
+}
+
+.logo-gallery{
+    display: flex;
+    justify-content: center;
+    gap:4em;
+}
+
+.logo-gallery img{
+    /* width:100px;
+    height:auto; */
+    border-radius: 20%;
+}
+
+
