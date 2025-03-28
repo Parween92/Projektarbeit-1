@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
@@ -51,3 +52,181 @@ margin-bottom:2em;
     }
 
 
+=======
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+/* "Awesome Apps features"-Circle section styling */
+.circles-section {
+  /* max-width: 1200px; */
+  /* margin: 50px auto; */
+  text-align: center;
+  padding: 20px;
+  background-color: #ffa886;
+}
+/* Heading and intro paragraph */
+.section-header {
+  margin-bottom: 50px;
+}
+.section-header h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.section-header p {
+  font-size: 18px;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Circles container */
+.circles-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+/* Circle item (includes circle and its text) */
+.circle-item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Individual circle */
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #a28089;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: white; */
+  font-weight: bold;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px;
+}
+.circle:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Text under each circle */
+.circle-text {
+  font-size: 16px;
+  color: #555;
+  max-width: 200px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .circles-container {
+    gap: 30px;
+  }
+  .circle-item {
+    width: 150px;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+  }
+  .section-header h2 {
+    font-size: 28px;
+  }
+  .section-header p,
+  .bottom-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .circles-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .circle-item {
+    margin-bottom: 30px;
+  }
+  /* .footer-content {
+    font-size: 10px;
+  } */
+  /* .footer-socialmedialinks {
+    width: 5em;
+  } */
+}
+footer {
+  background-color: #a28089;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
+}
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.footer-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-container div a {
+  text-decoration: none;
+  color: #333;
+}
+.footer-socialmedialinks {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*Social Media Icons*/
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: auto;
+  /* align-items: center; */
+  /* text-align: center; */
+  text-decoration: none;
+  /* border-radius: 50%; */
+  clip-path: circle(45%);
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/*each specific social media icon*/
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+>>>>>>> feature/footer
