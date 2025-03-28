@@ -9,6 +9,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
   }
+
 .referenzen-logo{
     background-color: #FFABB6;
     padding: 3em;
@@ -23,12 +24,15 @@ body {
  
 }
 
-.logo-gallery{
+.header-container{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:4em;
+    gap: 2em;
+    flex-wrap: nowrap;
 }
+
+.header-container .left{
+    width:400px;
+    background-color: aqua;}
 
 .logo-gallery img{
     width:100px;
@@ -84,6 +88,8 @@ nav {
   padding: 10px;
   border-radius: 5%;
 }
+
+
 .right li a:hover {
   text-decoration: none;
   color: #a28089;
