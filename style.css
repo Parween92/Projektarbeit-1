@@ -101,9 +101,9 @@ body {
   .circle-item {
     margin-bottom: 30px;
   }
-  .footer-content {
+  /* .footer-content {
     font-size: 10px;
-  }
+  } */
   /* .footer-socialmedialinks {
     width: 5em;
   } */
@@ -146,9 +146,12 @@ footer {
   padding: 20px;
   font-size: 30px;
   width: 50px;
-  text-align: center;
+  height: auto;
+  /* align-items: center; */
+  /* text-align: center; */
   text-decoration: none;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  clip-path: circle(45%);
 }
 /* Add a hover effect if you want */
 .fa:hover {
