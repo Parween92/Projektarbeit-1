@@ -1,46 +1,44 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-.choose-our-app{
-    background-color: #a28089;
-    color: #edf7f6;
+.choose-our-app {
+  background-color: #a28089;
+  color: #edf7f6;
 
-    text-align: center;
-    padding:3em;
+  text-align: center;
+  padding: 3em;
 }
 
-.choose-our-app h2{
-    margin-bottom:2em;
-    color: #FFABB6;
+.choose-our-app h2 {
+  margin-bottom: 2em;
+  color: #ffabb6;
 }
 
-.chosse-app-container{
-    padding: 0em 20em;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:2em;
-
+.chosse-app-container {
+  padding: 0em 20em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
 }
 
-#app{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-
+#app {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
 }
-    #app img{
-        border-radius: 50%;
-        width: 100px;
-        height:100px;
-        object-fit: cover;
-    }
+#app img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
 
 /* "Awesome Apps features"-Circle section styling */
 .circles-section {
@@ -105,13 +103,10 @@ body {
   max-width: 200px;
 }
 
- 
-
 footer {
   background-color: #a28089;
   bottom: 0;
   width: 100%;
- 
 }
 .footer-content {
   padding-top: 20px;
@@ -196,3 +191,4 @@ footer {
   .circle-item {
     margin-bottom: 30px;
   }
+}
