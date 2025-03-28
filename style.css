@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.video-container{
+    text-align: center;
+   padding:2em;
+   background-color: #a28089;
+}
+
+.video-container h2{
+    margin-bottom: 2em;
+    color:#FFABB6;
+    padding: 0em 20em;
+}
 body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
