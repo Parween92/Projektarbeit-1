@@ -39,7 +39,7 @@ body {
     text-align: center;
 }
 
-.referenzen-logo{
+/* .referenzen-logo{
     background-color: #FFABB6;
     padding: 3em;
 }
@@ -50,7 +50,7 @@ body {
     color: #a28089;
     font-weight: bold;
  
-}
+} */
 
 /* .header-container{
     display: flex;
@@ -62,10 +62,10 @@ body {
     width:400px;
     background-color: aqua;} */
 
-.logo-gallery img{
+/* .logo-gallery img{
     width:100px;
     height:100px;
-  }
+  } */
     
 .video-container{
     text-align: center;
@@ -185,7 +185,7 @@ button:hover {
   transition: all 0.85s ease;
 }
 
-.choose-our-app {
+/* .choose-our-app {
   background-color: #a28089;
   color: #edf7f6;
 
@@ -203,9 +203,9 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
-}
+} */
 
-#app {
+/* #app {
   display: flex;
   align-items: center;
   align-content: center;
@@ -216,7 +216,7 @@ button:hover {
   width: 100px;
   height: 100px;
   object-fit: cover;
-}
+} */
 
 /* "Awesome Apps features"-Circle section styling */
 .circles-section {
